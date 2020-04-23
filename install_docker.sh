@@ -44,4 +44,5 @@ services:
     entrypoint: vault server -config=/vault/config/vault.json
 EOF
 
-sudo docker-compose up
+cd /local/repository
+sudo docker-compose up -d
