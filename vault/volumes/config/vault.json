@@ -1,8 +1,11 @@
 {
-  "backend": {
-    "file": {
-      "path": "/vault/file"
-    }
+  "storage": {
+      "mysql": {
+         "username": "root",
+         "password": "password",
+         "database": "Vault",
+         "address": "0.0.0.0:3306"
+      }
   },
   "listener": {
     "tcp":{
