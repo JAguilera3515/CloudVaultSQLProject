@@ -12,4 +12,4 @@ services:
    adminer:
       image: adminer
       ports:
-         - 8200:8200
+         - 8080:8080
