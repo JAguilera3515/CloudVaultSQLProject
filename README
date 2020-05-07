@@ -17,10 +17,15 @@ Node 1 (mySQL)
 2)cd CSC496-CourseProject
 3)cd Database
 4)docker-compose up -d
+5)curl ifconfig.me (copy the ip that this gives you)
 
 Node 2 (Vault)
 
 1)git clone https://github.com/ferzavala2797/CSC496-CourseProject
 2)cd CSC496-CourseProject
 3)cd Vault
-4)docker-compose up
+4)cd volumes/config
+5)vim vault.json
+6)replace address in line 7 to the ip copied from step 5 in node 1
+7) cd ../..
+8)docker-compose up
