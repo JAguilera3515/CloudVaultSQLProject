@@ -27,5 +27,5 @@ Node 2 (Vault)
 4)cd volumes/config
 5)vim vault.json
 6)replace address in line 7 to the ip copied from step 5 in node 1
-7) cd ../..
+7)cd ../..
 8)docker-compose up
